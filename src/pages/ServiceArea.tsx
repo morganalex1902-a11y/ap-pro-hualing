@@ -55,27 +55,6 @@ const ServiceArea = () => {
       {/* Map Section */}
       <section className="container mx-auto px-4 py-8 md:py-16 mb-12 md:mb-24">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 md:gap-16 items-start">
-          <div className="lg:col-span-2 space-y-6 md:space-y-8">
-            <div className="aspect-video lg:aspect-[16/9] rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white relative group">
-              <iframe
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                style={{ border: 0 }}
-                referrerPolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB_LJOYJL-84SMuxNB7LtRGhxEQLjswvy0&language=en&region=cn&q=Waubaushene,Ontario"
-                allowFullScreen
-                className="grayscale hover:grayscale-0 transition-all duration-700"
-              />
-              <div className="absolute top-6 left-6 bg-primary text-white p-4 rounded-xl shadow-xl border-2 border-white/20">
-                <p className="text-xl font-black uppercase tracking-tight leading-none">Primary Service Area</p>
-                <p className="text-sm font-bold opacity-80 uppercase tracking-widest mt-1">Contra Costa County</p>
-              </div>
-            </div>
-            <p className="text-sm font-bold text-muted-foreground uppercase tracking-widest text-center opacity-60">
-              * Map shows central location. We serve a 50+ mile radius around Martinez.
-            </p>
-          </div>
 
           <div className="space-y-12">
             <div className="bg-secondary p-6 md:p-10 rounded-2xl md:rounded-3xl border-2 border-primary/20 text-secondary-foreground shadow-xl">
