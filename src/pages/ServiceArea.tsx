@@ -44,7 +44,7 @@ const ServiceArea = () => {
         >
           <span className="text-primary font-black uppercase tracking-widest text-sm">Where We Operate</span>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-black uppercase tracking-tight leading-none mb-4 md:mb-6">
-            Serving Martinez & the <br /> <span className="text-primary">Greater Bay Area</span>
+            <span className="text-primary">Contra Costa County</span> & <br /> Surrounding Areas
           </h1>
           <p className="text-base md:text-xl font-bold text-muted-foreground leading-relaxed">
             AP Pro Hauling is proud to serve residential and commercial clients across Martinez, Contra Costa County, and surrounding communities with professional-grade hauling services.
@@ -54,9 +54,8 @@ const ServiceArea = () => {
 
       {/* Map Section */}
       <section className="container mx-auto px-4 py-8 md:py-16 mb-12 md:mb-24">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 md:gap-16 items-start">
-
-          <div className="space-y-12">
+        <div className="flex justify-center">
+          <div className="space-y-12 w-full max-w-2xl">
             <div className="bg-secondary p-6 md:p-10 rounded-2xl md:rounded-3xl border-2 border-primary/20 text-secondary-foreground shadow-xl">
               <h2 className="text-xl md:text-2xl font-black uppercase tracking-tight mb-4 md:mb-6 border-b-2 border-primary w-fit pb-1">Areas We Cover:</h2>
               <div className="grid grid-cols-2 gap-y-4 gap-x-6">

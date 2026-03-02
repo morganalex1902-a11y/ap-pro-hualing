@@ -53,7 +53,6 @@ const About = () => {
               {[
                 { icon: ShieldCheck, label: 'Licensed & Insured' },
                 { icon: Truck, label: 'Modern Equipment' },
-                { icon: Users, label: 'Veteran Owned' },
                 { icon: MapPin, label: 'Local Martinez Biz' },
               ].map((item, idx) => (
                 <div key={idx} className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border shadow-sm">
