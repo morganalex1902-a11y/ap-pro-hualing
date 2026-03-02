@@ -137,7 +137,7 @@ const Home = () => {
             <p className="text-base sm:text-lg md:text-2xl lg:text-3xl text-white font-black max-w-4xl mx-auto leading-tight hero-anim">
               Fast, Friendly, and Reliable Service for Your Cleanup Projects
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-6 pt-4 md:pt-6 hero-anim">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6 pt-4 md:pt-6 hero-anim">
               <Button asChild size="lg" className="h-12 md:h-14 lg:h-18 px-6 md:px-8 lg:px-12 text-base md:text-lg lg:text-xl font-black uppercase tracking-widest bg-primary text-white shadow-[0_0_30px_rgba(191,32,38,0.5)] transition-all hover:scale-105 active:scale-95 w-full sm:w-auto">
                 <Link to="/contact">Get a Free Quote</Link>
               </Button>

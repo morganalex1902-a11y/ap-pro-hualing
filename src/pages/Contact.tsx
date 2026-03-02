@@ -58,7 +58,7 @@ const Contact = () => {
 
       {/* Contact Content Grid */}
       <section className="container mx-auto px-4 py-8 md:py-16 mb-12 md:mb-24">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-start">
+        <div className="flex justify-center">
           <div className="space-y-12">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -89,16 +89,6 @@ const Contact = () => {
             </motion.div>
 
           </div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="h-full hidden"
-          >
-            <ContactForm />
-          </motion.div>
         </div>
       </section>
 
@@ -109,7 +99,7 @@ const Contact = () => {
           <h2 className="text-2xl md:text-3xl lg:text-5xl font-black uppercase tracking-tight leading-none">
             Why Trust <span className="text-primary">AP Pro Hauling?</span>
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-12 max-w-5xl mx-auto">
             {[
               { title: 'Contractor Grade', desc: 'Equipment and service standards built for professionals.' },
               { title: 'Veteran Owned', desc: 'Bringing military precision and dedication to every project.' },

@@ -107,7 +107,7 @@ const ServiceArea = () => {
       {/* Benefits Section */}
       <section className="container mx-auto px-4 py-12 md:py-24 bg-primary rounded-2xl md:rounded-[3rem] text-white overflow-hidden relative group">
         <div className="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-12 text-center relative z-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-12 text-center relative z-10">
           {[
             { title: 'Local Expertise', icon: MapPin, desc: 'We know the neighborhoods and rules of Martinez.' },
             { title: 'Fast Logistics', icon: Navigation, desc: 'Quick routes and efficient delivery to your site.' },
