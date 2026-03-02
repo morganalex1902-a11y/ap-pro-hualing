@@ -9,6 +9,10 @@ const images = [
   { url: 'https://miaoda-conversation-file.s3cdn.medo.dev/user-9xdz4hrfsqgw/20260228/file-9xe1ynl8lpfk.png', title: 'Residential Dumpster Placement' },
   { url: 'https://miaoda-conversation-file.s3cdn.medo.dev/user-9xdz4hrfsqgw/20260228/file-9xe21aaq0v7k.png', title: 'Site Cleanup and Debris Removal' },
   { url: 'https://miaoda-conversation-file.s3cdn.medo.dev/user-9xdz4hrfsqgw/20260228/file-9xdzbibl3bwg.png', title: 'AP Pro Hauling Professional Logistics' },
+  { url: 'https://cdn.builder.io/api/v1/image/assets%2Fc7153280bf014d22add5207f8fec93c6%2Faafd21fec6c345f0ab6f5b26c6c09170?format=webp&width=800&height=1200', title: 'Commercial Truck and Trailer Service' },
+  { url: 'https://cdn.builder.io/api/v1/image/assets%2Fc7153280bf014d22add5207f8fec93c6%2Fe941d50bdef0427a97f00439f9a809f8?format=webp&width=800&height=1200', title: 'Equipment Loading and Transport' },
+  { url: 'https://cdn.builder.io/api/v1/image/assets%2Fc7153280bf014d22add5207f8fec93c6%2F961d301255e14b0b823f526c63790a08?format=webp&width=800&height=1200', title: 'Professional Hauling Operations' },
+  { url: 'https://cdn.builder.io/api/v1/image/assets%2Fc7153280bf014d22add5207f8fec93c6%2F370c68a851af42ab91384383c9289b87?format=webp&width=800&height=1200', title: 'Heavy Machinery and Debris Removal' },
 ];
 
 const Gallery = () => {
