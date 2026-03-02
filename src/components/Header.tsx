@@ -61,7 +61,7 @@ export const Header = () => {
         </nav>
 
         {/* Right side - Phone Button */}
-        <div className="hidden lg:block shrink-0">
+        <div className="hidden lg:block shrink-0 hidden">
           <Button asChild variant="default" className="font-black uppercase tracking-widest h-11 px-6 shadow-md shadow-primary/20 bg-primary text-white hover:bg-primary/90 transition-colors focus:ring-2 focus:ring-primary focus:ring-offset-2">
             <a href="tel:925-995-8255" aria-label="Call AP Pro Hauling at 925-995-8255">
               Call Now: (925) 995-8255
@@ -71,7 +71,7 @@ export const Header = () => {
 
         {/* Mobile Nav */}
         <div className="lg:hidden flex items-center gap-4">
-          <a href="tel:925-995-8255" className="text-primary font-black text-sm" aria-label="Call Now">
+          <a href="tel:925-995-8255" className="text-primary font-black text-sm hidden" aria-label="Call Now">
             Call Now
           </a>
           <Sheet>
@@ -94,7 +94,7 @@ export const Header = () => {
                     {item.name}
                   </Link>
                 ))}
-                <Button asChild variant="default" className="mt-4 font-black uppercase tracking-wider w-full bg-primary text-white">
+                <Button asChild variant="default" className="mt-4 font-black uppercase tracking-wider w-full bg-primary text-white hidden">
                   <a href="tel:925-995-8255" aria-label="Call Now: 925-995-8255">
                     Call Now: (925) 995-8255
                   </a>

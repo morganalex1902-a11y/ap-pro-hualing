@@ -37,7 +37,7 @@ export const Footer = () => {
             <p className="text-muted-foreground text-sm leading-relaxed">
               Professional contractor-grade hauling services in Martinez, CA. We provide reliable dumpster rentals, junk removal, and equipment transport across Contra Costa County.
             </p>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 hidden">
               <a href="#" className="hover:text-primary transition-colors">
                 <Facebook className="h-6 w-6" />
               </a>
@@ -92,7 +92,7 @@ export const Footer = () => {
                   4 Giannini Rd, Martinez, CA 94553, United States
                 </span>
               </li>
-              <li className="flex items-center gap-3 group">
+              <li className="flex items-center gap-3 group hidden">
                 <Phone className="h-5 w-5 text-primary shrink-0" />
                 <a
                   href="tel:925-995-8255"
@@ -101,7 +101,7 @@ export const Footer = () => {
                   925-995-8255
                 </a>
               </li>
-              <li className="flex items-center gap-3 group">
+              <li className="flex items-center gap-3 group hidden">
                 <Mail className="h-5 w-5 text-primary shrink-0" />
                 <a
                   href="mailto:approhauling@gmail.com"
