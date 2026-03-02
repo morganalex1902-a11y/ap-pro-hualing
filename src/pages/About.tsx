@@ -49,11 +49,10 @@ const About = () => {
                 Whether you need a 10-yard dumpster for a home renovation or help removing construction debris, we bring the same level of professional dedication and reliability to every job, large or small.
               </p>
             </div>
-            <div className="flex flex-wrap gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 gap-3 md:gap-4">
               {[
                 { icon: ShieldCheck, label: 'Licensed & Insured' },
                 { icon: Truck, label: 'Modern Equipment' },
-                { icon: Users, label: 'Veteran Owned' },
                 { icon: MapPin, label: 'Local Martinez Biz' },
               ].map((item, idx) => (
                 <div key={idx} className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border shadow-sm">

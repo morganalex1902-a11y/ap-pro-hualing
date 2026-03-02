@@ -113,13 +113,13 @@ const Services = () => {
       <div className="space-y-16 md:space-y-32">
         {detailedServices.map((service, index) => (
           <section key={service.id} id={service.id} className={`container mx-auto px-4 py-8 md:py-16 ${index % 2 === 1 ? 'bg-slate-50 rounded-2xl md:rounded-3xl border-2 border-slate-100 shadow-sm' : ''}`}>
-            <div className={`grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-start ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}>
+            <div className={`grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center`}>
               <motion.div
                 initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
                 viewport={{ once: true }}
-                className="space-y-8 order-2 lg:order-none"
+                className={`space-y-8 ${index % 2 === 1 ? 'lg:col-start-2' : ''}`}
               >
                 <div className="flex items-center gap-4">
                   <div className="bg-primary p-3 rounded-xl text-white shadow-lg">
@@ -160,7 +160,7 @@ const Services = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
                 viewport={{ once: true }}
-                className="relative order-1 lg:order-none"
+                className={`relative ${index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}`}
               >
                 <div className="aspect-video lg:aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border-4 border-white group">
                   <img
