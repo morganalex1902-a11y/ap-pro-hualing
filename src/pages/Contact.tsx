@@ -70,7 +70,7 @@ const Contact = () => {
               <h2 className="text-2xl md:text-3xl lg:text-5xl font-black uppercase tracking-tight leading-none">
                 Contact <span className="text-primary">Information</span>
               </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 hidden">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                 {contactInfo.map((info, idx) => (
                   <div key={idx} className="bg-muted/50 p-6 rounded-2xl border-2 border-primary/5 hover:border-primary/20 transition-all group shadow-sm">
                     <div className="bg-primary p-3 rounded-xl text-white shadow-lg w-fit mb-4 group-hover:scale-110 transition-transform">
