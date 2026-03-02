@@ -20,7 +20,7 @@ const contactInfo = [
     icon: MapPin,
     label: 'Physical Address',
     value: '4 Giannini Rd, Martinez, CA 94553, United States',
-    link: 'https://maps.google.com/?q=4+Giannini+Rd,+Martinez,+CA+94553,+United+States',
+    link: '#',
   },
   {
     icon: Clock,
@@ -58,7 +58,7 @@ const Contact = () => {
 
       {/* Contact Content Grid */}
       <section className="container mx-auto px-4 py-8 md:py-16 mb-12 md:mb-24">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-start">
+        <div className="flex justify-center">
           <div className="space-y-12">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -88,42 +88,7 @@ const Contact = () => {
               </div>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-              className="space-y-8"
-            >
-              <h2 className="text-2xl md:text-3xl lg:text-5xl font-black uppercase tracking-tight leading-none">
-                Our <span className="text-primary">Location</span>
-              </h2>
-              <div className="aspect-[16/9] rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white grayscale hover:grayscale-0 transition-all duration-700">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  frameBorder="0"
-                  style={{ border: 0 }}
-                  referrerPolicy="no-referrer-when-downgrade"
-                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB_LJOYJL-84SMuxNB7LtRGhxEQLjswvy0&language=en&region=cn&q=Waubaushene,Ontario"
-                  allowFullScreen
-                />
-              </div>
-              <p className="text-sm font-bold text-muted-foreground uppercase tracking-widest text-center opacity-60">
-                * Serving Martinez, CA and the surrounding 50-mile radius.
-              </p>
-            </motion.div>
           </div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="h-full hidden"
-          >
-            <ContactForm />
-          </motion.div>
         </div>
       </section>
 
@@ -134,7 +99,7 @@ const Contact = () => {
           <h2 className="text-2xl md:text-3xl lg:text-5xl font-black uppercase tracking-tight leading-none">
             Why Trust <span className="text-primary">AP Pro Hauling?</span>
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-12 max-w-5xl mx-auto">
             {[
               { title: 'Contractor Grade', desc: 'Equipment and service standards built for professionals.' },
               { title: 'Veteran Owned', desc: 'Bringing military precision and dedication to every project.' },

@@ -44,7 +44,7 @@ const ServiceArea = () => {
         >
           <span className="text-primary font-black uppercase tracking-widest text-sm">Where We Operate</span>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-black uppercase tracking-tight leading-none mb-4 md:mb-6">
-            Serving Martinez & the <br /> <span className="text-primary">Greater Bay Area</span>
+            <span className="text-primary">Contra Costa County</span> & <br /> Surrounding Areas
           </h1>
           <p className="text-base md:text-xl font-bold text-muted-foreground leading-relaxed">
             AP Pro Hauling is proud to serve residential and commercial clients across Martinez, Contra Costa County, and surrounding communities with professional-grade hauling services.
@@ -54,30 +54,8 @@ const ServiceArea = () => {
 
       {/* Map Section */}
       <section className="container mx-auto px-4 py-8 md:py-16 mb-12 md:mb-24">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 md:gap-16 items-start">
-          <div className="lg:col-span-2 space-y-6 md:space-y-8">
-            <div className="aspect-video lg:aspect-[16/9] rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white relative group">
-              <iframe
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                style={{ border: 0 }}
-                referrerPolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB_LJOYJL-84SMuxNB7LtRGhxEQLjswvy0&language=en&region=cn&q=Waubaushene,Ontario"
-                allowFullScreen
-                className="grayscale hover:grayscale-0 transition-all duration-700"
-              />
-              <div className="absolute top-6 left-6 bg-primary text-white p-4 rounded-xl shadow-xl border-2 border-white/20">
-                <p className="text-xl font-black uppercase tracking-tight leading-none">Primary Service Area</p>
-                <p className="text-sm font-bold opacity-80 uppercase tracking-widest mt-1">Contra Costa County</p>
-              </div>
-            </div>
-            <p className="text-sm font-bold text-muted-foreground uppercase tracking-widest text-center opacity-60">
-              * Map shows central location. We serve a 50+ mile radius around Martinez.
-            </p>
-          </div>
-
-          <div className="space-y-12">
+        <div className="flex justify-center">
+          <div className="space-y-12 w-full max-w-2xl">
             <div className="bg-secondary p-6 md:p-10 rounded-2xl md:rounded-3xl border-2 border-primary/20 text-secondary-foreground shadow-xl">
               <h2 className="text-xl md:text-2xl font-black uppercase tracking-tight mb-4 md:mb-6 border-b-2 border-primary w-fit pb-1">Areas We Cover:</h2>
               <div className="grid grid-cols-2 gap-y-4 gap-x-6">
@@ -128,7 +106,7 @@ const ServiceArea = () => {
       {/* Benefits Section */}
       <section className="container mx-auto px-4 py-12 md:py-24 bg-primary rounded-2xl md:rounded-[3rem] text-white overflow-hidden relative group">
         <div className="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-12 text-center relative z-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-12 text-center relative z-10">
           {[
             { title: 'Local Expertise', icon: MapPin, desc: 'We know the neighborhoods and rules of Martinez.' },
             { title: 'Fast Logistics', icon: Navigation, desc: 'Quick routes and efficient delivery to your site.' },
