@@ -117,7 +117,7 @@ const Home = () => {
         {/* Background Overlay */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://miaoda-conversation-file.s3cdn.medo.dev/user-9xdz4hrfsqgw/20260228/file-9xe1ynl8lpfk.png"
+            src="https://cdn.builder.io/api/v1/image/assets%2Fc7153280bf014d22add5207f8fec93c6%2Ffd9e350d534c47508d6f71273184c712?format=webp&width=800&height=1200"
             alt="Hero Background"
             className="w-full h-full object-cover"
           />

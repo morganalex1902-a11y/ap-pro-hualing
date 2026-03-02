@@ -59,10 +59,6 @@ export const PageMeta = ({
             "opens": "00:00",
             "closes": "23:59"
           },
-          "sameAs": [
-            "https://www.facebook.com/approhauling",
-            "https://www.instagram.com/approhauling"
-          ]
         }
       `}
     </script>
